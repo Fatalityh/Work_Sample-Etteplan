@@ -62,11 +62,5 @@ def save_value_from_xml_to_file(file ,value, outputfile):
 
 # Run Program
 if __name__ == '__main__':
-    # Parses the XML file and prints the id and target.
-    #find_value_from_xml_file('sma_gentext.xml', '42007')
-
     # Runs 'save_value_from_xml_to_file' and returns the target from required value and saves it to a .txt file
     save_value_from_xml_to_file('sma_gentext.xml', '42007', 'target.txt')
-
-    # Will Not Work
-    find_value_from_xml_file('', '')
